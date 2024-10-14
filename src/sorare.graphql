@@ -1,0 +1,9 @@
+type ClubInfo {
+  club: String
+  league: String
+  so5league: String
+}
+
+type Query {
+  listClubs(user: String): [ClubInfo]
+}
