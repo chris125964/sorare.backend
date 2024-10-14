@@ -1,7 +1,7 @@
 import Database = require('better-sqlite3');
 import { COL_TYPE, DB } from './database';
-import { DAOClub } from 'src/dao/daoClub';
-import { debugDatabaseClub } from 'src/utils/logging';
+import { DAOClub } from '../dao/daoClub';
+import { debugDatabaseClub } from '../utils/logging';
 
 export class DBClub extends DB {
   private cache: {

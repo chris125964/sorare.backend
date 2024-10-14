@@ -1,7 +1,7 @@
 import Database = require('better-sqlite3');
 import { COL_TYPE, DB } from './database';
-import { debugDatabaseSo5League } from 'src/utils/logging';
-import { DAOSo5League } from 'src/dao/daoSO5League';
+import { debugDatabaseSo5League } from '../utils/logging';
+import { DAOSo5League } from '../dao/daoSO5League';
 
 export class DBSo5League extends DB {
   private cache: {
