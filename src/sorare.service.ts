@@ -3,12 +3,7 @@ import { createDB } from './db/database';
 import { DBClub } from './db/dbClub';
 import { DBLeague } from './db/dbLeague';
 import { DBSo5League } from './db/dbSO5League';
-
-type TClub = {
-  club: string;
-  so5league: string;
-  league: string;
-};
+import { TClub } from './types';
 
 @Injectable()
 export class SorareService {

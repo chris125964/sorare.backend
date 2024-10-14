@@ -1,0 +1,24 @@
+{
+  "out": "artifacts/doc",
+  "name": "Sorare API",
+  "readme": "README.md",
+  "entryPointStrategy": "resolve",
+  "entryPoints": [
+    "./src/sorare.service.ts",
+    "./src/sorare.controller.ts",
+    "./src/db/dbClub.ts",
+    "./src/db/dbLeague.ts",
+    "./src/db/dbSO5League.ts",
+    "./src/dao/daoClub.ts",
+    "./src/dao/daoLeague.ts",
+    "./src/dao/daoSO5League.ts",
+    "./src/types.ts"
+  ],
+  "excludePrivate": true,
+  "externalPattern": [],
+  "excludeExternals": true,
+  "categorizeByGroup": true,
+  "categoryOrder": ["Check", "DAO"],
+  "groupOrder": ["DAO"],
+  "theme": "default"
+}

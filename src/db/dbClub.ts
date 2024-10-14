@@ -3,6 +3,12 @@ import { COL_TYPE, DB } from './database';
 import { DAOClub } from '../dao/daoClub';
 import { debugDatabaseClub } from '../utils/logging';
 
+/**
+ * @group Database
+ *
+ * @class DBClub
+ * @extends {DB}
+ */
 export class DBClub extends DB {
   private cache: {
     id: number;

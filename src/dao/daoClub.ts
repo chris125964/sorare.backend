@@ -1,3 +1,8 @@
+/**
+ * @group DAO
+ *
+ * @class DAOClub
+ */
 export class DAOClub {
   private id: number;
   private name: string;

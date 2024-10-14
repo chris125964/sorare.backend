@@ -3,6 +3,12 @@ import { DB, COL_TYPE } from './database';
 import { DAOLeague } from '../dao/daoLeague';
 import { debugDatabaseSo5League } from '../utils/logging';
 
+/**
+ * @group Database
+ *
+ * @class DBLeague
+ * @extends {DB}
+ */
 export class DBLeague extends DB {
   private cache: { id: number; name: string; country: string }[];
 
